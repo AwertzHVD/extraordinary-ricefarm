@@ -1304,3 +1304,125 @@ java.lang.UnsupportedOperationException: Operation only supported in ASTs with p
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 16:40:45.628
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVHCBSqP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 16:40:45.629
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YVHCBSqP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 16:40:45.629
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 16:40:45.630
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVHCBSqP => OK
+!SESSION 2022-04-26 07:53:36.743 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_AT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\AguF\Documents\GitHub\extraordinary-ricefarm\java_workspace
+
+!ENTRY org.eclipse.jface 2 0 2022-04-26 07:53:40.213
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-26 07:53:40.213
+!MESSAGE A conflict occurred for CTRL+SHIFT+F11:
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(org.eclipse.eclemma.ui.commands.CoverageLast,Coverage,
+		Coverage,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a6a2fdd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(jetbrains.teamcity.core.commands.remoteRun,Remote Run,
+		Fires Remote Run action,
+		Category(jetbrains.teamcity.core.commands.category,TeamCity Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@552ffa44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-26 07:53:40.213
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e66b498,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54d35ed5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:46.920
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:46.920
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c4335c8[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:46.920
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:46.982
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-26 07:53:47.229
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'X:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.727
+!MESSAGE Boot LS startup time from start to initialized: 1792ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zMLjYHlQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE subscribing to classpath changes: sts4.classpath.zMLjYHlQ isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE subsribers = {sts4.classpath.zMLjYHlQ=Send Classpath Notifications(99)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE project ExcelFileReader ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE Preparing classpath changed notification ExcelFileReader
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zMLjYHlQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.759
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.774
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.774
+!MESSAGE buffering callback sts4.classpath.zMLjYHlQ ExcelFileReader false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.774
+!MESSAGE executing callback sts4.classpath.zMLjYHlQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-26 07:53:48.790
+!MESSAGE executing callback sts4.classpath.zMLjYHlQ SUCCESS [done]
