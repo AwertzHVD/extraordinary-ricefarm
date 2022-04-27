@@ -1,0 +1,1 @@
+XCOPY /S /E /H /Y /M C:\TestFolder C:\DestDirFolder 

@@ -2,22 +2,26 @@ package com.stiwa.excel_file_reader;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Iterator;
+import java.util.Vector;
 
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class XLSXReaderExample {
-	public static void main(String[] args) {
+public class ExcelDataHandler {
+	String month;
+	Vector<Integer> days=new Vector<Integer>();
+
+	public ExcelDataHandler() {
+		getDataFromTable();
+	}
+
+	public void getDataFromTable() {
 		try {
 			File file = new File(
-					"C:\\Users\\AguF\\Documents\\GitHub\\extraordinary-ricefarm\\java_workspace\\ExcelFileReader\\src\\excel_files\\demo.xlsx");
+					"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\january.xlsx");
 			// creating a new file instance
 			FileInputStream fis = new FileInputStream(file); // obtaining bytes from the file
 			// creating Workbook instance that refers to .xlsx file
@@ -29,13 +33,12 @@ public class XLSXReaderExample {
 				Iterator<Cell> cellIterator = row.cellIterator(); // iterating over each column
 				while (cellIterator.hasNext()) {
 					Cell cell = cellIterator.next();
-					if (isNumeric(cell.getStringCellValue())) {
-						System.out.print(cell.getNumericCellValue() + "\t\t\t");
-					} else {
-						System.out.print(cell.getStringCellValue() + "\t\t\t");
+					try {
+				setMonth(cell.getStringCellValue());
+					} catch (Exception e) {
+						getDays().add((int) cell.getNumericCellValue());
 					}
 				}
-				System.out.println("");
 			}
 
 		} catch (
@@ -45,13 +48,30 @@ public class XLSXReaderExample {
 		}
 	}
 
-	public static boolean isNumeric(String str) {
-		try {
-			Double.parseDouble(str);
-			return true;
-		} catch (NumberFormatException e) {
-			return false;
+	public String getMonth() {
+		return month;
+	}
+
+	public void setMonth(String month) {
+		this.month = month;
+	}
+
+	public Vector<Integer> getDays() {
+		return days;
+	}
+
+	public void setDays(Vector<Integer> days) {
+		this.days = days;
+	}
+
+	public void printData() {
+		System.out.println("Month: "+ getMonth());
+		
+		for (Integer status : getDays()) {
+			System.out.println("Status: "+ status);
 		}
 	}
+	
+	
 
 }
