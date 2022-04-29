@@ -18,7 +18,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-public class ShapeS extends JPanel {
+public class ShapeP extends JPanel {
 	private File security = new File(
 			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\january.xlsx");
 	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath());
@@ -29,7 +29,7 @@ public class ShapeS extends JPanel {
 
 	private JButton screenshot = new JButton("Screenshot");
 
-	public ShapeS(int frameWidth, int frameHeight) {
+	public ShapeP(int frameWidth, int frameHeight) {
 		super();
 		this.setSize(frameWidth, frameHeight);
 		setFrameHeight(frameHeight);

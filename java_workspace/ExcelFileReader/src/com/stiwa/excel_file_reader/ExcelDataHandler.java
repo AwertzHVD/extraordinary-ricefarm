@@ -7,45 +7,51 @@ import java.util.Vector;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.CellUtil;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelDataHandler {
 	String month;
-	Vector<Integer> days=new Vector<Integer>();
+	Vector<Integer> days = new Vector<Integer>();
+	String path;
 
-	public ExcelDataHandler() {
+	public ExcelDataHandler(String path) {
+		setPath(path);
 		getDataFromTable();
+
+		System.out.println(this.month);
+		for (int i = 0; i < this.days.size(); i++) {
+			System.out.println(this.days.get(i));
+		}
 	}
 
 	public void getDataFromTable() {
 		try {
-			File file = new File(
-					"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\january.xlsx");
+			final File file = new File(getPath());
 			// creating a new file instance
-			FileInputStream fis = new FileInputStream(file); // obtaining bytes from the file
+			final FileInputStream fis = new FileInputStream(file); // obtaining bytes from the file
 			// creating Workbook instance that refers to .xlsx file
-			XSSFWorkbook wb = new XSSFWorkbook(fis);
-			XSSFSheet sheet = wb.getSheetAt(0); // creating a Sheet object to retrieve object
-			Iterator<Row> itr = sheet.iterator(); // iterating over excel file
+			final XSSFWorkbook wb = new XSSFWorkbook(fis);
+			final XSSFSheet sheet = wb.getSheetAt(0); // creating a Sheet object to retrieve object
+
+			final Iterator<Row> itr = sheet.rowIterator();
+			// iterating over excel file
 			while (itr.hasNext()) {
-				Row row = itr.next();
-				Iterator<Cell> cellIterator = row.cellIterator(); // iterating over each column
-				while (cellIterator.hasNext()) {
-					Cell cell = cellIterator.next();
-					try {
-				setMonth(cell.getStringCellValue());
-					} catch (Exception e) {
-						getDays().add((int) cell.getNumericCellValue());
-					}
+				final Row row = itr.next();
+				final Iterator<Cell> cellIterator = row.cellIterator(); // iterating over each column
+				final Cell cell = CellUtil.getCell(row, 1);
+				try {
+					setMonth(cell.getStringCellValue());
+				} catch (final Exception e) {
+					getDays().add((int) cell.getNumericCellValue());
+
 				}
 			}
-
-		} catch (
-
-		Exception e) {
+		} catch (final Exception e) {
 			e.printStackTrace();
 		}
+
 	}
 
 	public String getMonth() {
@@ -64,14 +70,12 @@ public class ExcelDataHandler {
 		this.days = days;
 	}
 
-	public void printData() {
-		System.out.println("Month: "+ getMonth());
-		
-		for (Integer status : getDays()) {
-			System.out.println("Status: "+ status);
-		}
+	public String getPath() {
+		return path;
 	}
-	
-	
+
+	public void setPath(String path) {
+		this.path = path;
+	}
 
 }
