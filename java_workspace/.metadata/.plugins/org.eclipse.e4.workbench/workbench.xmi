@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_RpAqIcSfEeysJsojKt4UEA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_RpAqIsSfEeysJsojKt4UEA" bindingContexts="_RpAqK8SfEeysJsojKt4UEA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;demo.xlsx&quot; tooltip=&quot;ExcelFileReader/src/excel_files/demo.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/excel_files/demo.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;XLSXReaderExample.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;color.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/color.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/color.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ReadExcelFileDemo.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/ReadExcelFileDemo.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/ReadExcelFileDemo.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileReader.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestReader.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/TestReader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/TestReader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;security.png&quot; tooltip=&quot;ExcelFileReader/resources/security.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/resources/security.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;demo.xlsx&quot; tooltip=&quot;ExcelFileReader/src/excel_files/demo.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/excel_files/demo.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;XLSXReaderExample.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;color.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/color.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/color.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ReadExcelFileDemo.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/ReadExcelFileDemo.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/ReadExcelFileDemo.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileReader.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestReader.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/TestReader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/TestReader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_RpAqIsSfEeysJsojKt4UEA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_R3bgo8SfEeysJsojKt4UEA" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -122,7 +122,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_R-pi_sSfEeysJsojKt4UEA" containerData="7500" selectedElement="_R-pi_8SfEeysJsojKt4UEA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_R-pi_sSfEeysJsojKt4UEA" containerData="7500" selectedElement="_R-pjCsSfEeysJsojKt4UEA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_R-pi_8SfEeysJsojKt4UEA" containerData="6898" selectedElement="_R-pjAMSfEeysJsojKt4UEA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_R-pjAMSfEeysJsojKt4UEA" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_R-YdMMSfEeysJsojKt4UEA"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_R-pjAcSfEeysJsojKt4UEA" visible="false" containerData="2500" selectedElement="_R-pjBMSfEeysJsojKt4UEA">
@@ -258,21 +258,9 @@
       <toolbar xmi:id="_KtLtEcY3Eey-pfwYD2Li5g" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_R-YdMMSfEeysJsojKt4UEA" elementId="org.eclipse.ui.editorss" selectedElement="_R-YdMcSfEeysJsojKt4UEA">
-      <children xsi:type="basic:PartStack" xmi:id="_R-YdMcSfEeysJsojKt4UEA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_8ptwQMSfEeyUnr0kA2PziQ">
+      <children xsi:type="basic:PartStack" xmi:id="_R-YdMcSfEeysJsojKt4UEA" elementId="org.eclipse.e4.primaryDataStack">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_7SFO8MSfEeyUnr0kA2PziQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ExcelFileReader.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileReader.java&quot; partName=&quot;ExcelFileReader.java&quot; title=&quot;ExcelFileReader.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/ExcelFileReader.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;5&quot; selectionOffset=&quot;72&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_8ptwQMSfEeyUnr0kA2PziQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="XLSXReaderExample.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;XLSXReaderExample.java&quot; partName=&quot;XLSXReaderExample.java&quot; title=&quot;XLSXReaderExample.java&quot; tooltip=&quot;ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ExcelFileReader/src/com/stiwa/excel_file_reader/XLSXReaderExample.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1624&quot; selectionTopPixel=&quot;73&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_R-ej1sSfEeysJsojKt4UEA" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
@@ -464,7 +452,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R4rd0sSfEeysJsojKt4UEA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_GMWmMMY3Eey-pfwYD2Li5g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RpZHJ8SfEeysJsojKt4UEA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rXZiYMepEey1p-Bz0qvAvQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RpZHJ8SfEeysJsojKt4UEA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R4rd08SfEeysJsojKt4UEA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -477,7 +465,7 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_R4rd18SfEeysJsojKt4UEA" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_7WZuQMSfEeyUnr0kA2PziQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_7WZuQMSfEeyUnr0kA2PziQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_SQsVMMSfEeysJsojKt4UEA" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -495,7 +483,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R4rd2sSfEeysJsojKt4UEA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_GMYbYMY3Eey-pfwYD2Li5g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_RpZG2cSfEeysJsojKt4UEA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_rXZibcepEey1p-Bz0qvAvQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_RpZG2cSfEeysJsojKt4UEA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R4rd28SfEeysJsojKt4UEA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -526,11 +514,6 @@
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_RpAqJ8SfEeysJsojKt4UEA" elementId="org.eclipse.ui.ProgressBar" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_Ku-c0MY3Eey-pfwYD2Li5g" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
-        <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
-        <persistedState key="lastPageId" value="qroot"/>
         <tags>Draggable</tags>
       </children>
     </trimBars>
@@ -2726,7 +2709,7 @@
   <addons xmi:id="_RpAqN8SfEeysJsojKt4UEA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_RpAqOMSfEeysJsojKt4UEA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_RpGwwMSfEeysJsojKt4UEA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_F7LWocY3Eey-pfwYD2Li5g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_rJWfUcepEey1p-Bz0qvAvQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_RpS-AMSfEeysJsojKt4UEA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_RpS-AcSfEeysJsojKt4UEA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
