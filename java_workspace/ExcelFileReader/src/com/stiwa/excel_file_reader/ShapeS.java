@@ -20,10 +20,10 @@ import javax.swing.JPanel;
 
 public class ShapeS extends JPanel {
 	private File security = new File(
-			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\january.xlsx");
+			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\2022.xlsx");
 	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath());
-	private int upperTileAmount;
-	private int lowerTileAmount;
+	private int upperTileAmount = 15;
+	private int lowerTileAmount = 16;
 	private int frameWidth;
 	private int frameHeight;
 
@@ -34,14 +34,7 @@ public class ShapeS extends JPanel {
 		this.setSize(frameWidth, frameHeight);
 		setFrameHeight(frameHeight);
 		setFrameWidth(frameWidth);
-		setTileAmount();
 		setComponents();
-
-	}
-
-	private void setTileAmount() {
-		setUpperTileAmount(getExcelDataHandler().getDays().size() / 2);
-		setLowerTileAmount(getExcelDataHandler().getDays().size() - getUpperTileAmount());
 	}
 
 	private void setComponents() {
@@ -91,7 +84,8 @@ public class ShapeS extends JPanel {
 			g2d.rotate(Math.toRadians(extent + 0.2), 935, 255);
 		}
 		g2d.rotate(Math.toRadians(101), 1128, 296);
-		for (int tileIndex = 16; tileIndex < getUpperTileAmount() + getLowerTileAmount() + 1; tileIndex++) {
+		for (int tileIndex = getLowerTileAmount(); tileIndex < getUpperTileAmount() + getLowerTileAmount()
+				+ 1; tileIndex++) {
 			g2d.setFont(new Font("TimesRoman", Font.BOLD, 14));
 			g2d.drawString(tileIndex + "", (float) (1040), (float) (395));
 			g2d.rotate(Math.toRadians(extent + 0.2), 1005, 275);
@@ -138,17 +132,22 @@ public class ShapeS extends JPanel {
 	}
 
 	public Color checkTileStatus(int index) {
-		switch (getExcelDataHandler().days.get(index)) {
-		case 1:
-			return Color.green;
-		case 2:
-			return Color.orange;
-		case 3:
-			return Color.red;
-		default:
-			break;
+		try {
+			switch (getExcelDataHandler().getDays().get(index)) {
+			case 1:
+				return Color.green;
+			case 2:
+				return Color.orange;
+			case 3:
+				return Color.red;
+			default:
+				break;
+			}
+		} catch (Exception e) {
+			return Color.white;
 		}
-		return Color.WHITE;
+
+		return Color.white;
 	}
 
 	public static void drawRotate(Graphics2D g2d, double x, double y, int angle, String text) {
@@ -172,16 +171,8 @@ public class ShapeS extends JPanel {
 		return upperTileAmount;
 	}
 
-	public void setUpperTileAmount(int upperTileAmount) {
-		this.upperTileAmount = upperTileAmount;
-	}
-
 	public int getLowerTileAmount() {
 		return lowerTileAmount;
-	}
-
-	public void setLowerTileAmount(int lowerTileAmount) {
-		this.lowerTileAmount = lowerTileAmount;
 	}
 
 	public int getFrameWidth() {

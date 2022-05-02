@@ -22,8 +22,8 @@ public class ShapeP extends JPanel {
 	private File security = new File(
 			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\january.xlsx");
 	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath());
-	private int upperTileAmount;
-	private int lowerTileAmount;
+	private int upperTileAmount = 15;
+	private int lowerTileAmount = 16;
 	private int frameWidth;
 	private int frameHeight;
 
@@ -34,14 +34,7 @@ public class ShapeP extends JPanel {
 		this.setSize(frameWidth, frameHeight);
 		setFrameHeight(frameHeight);
 		setFrameWidth(frameWidth);
-		setTileAmount();
 		setComponents();
-
-	}
-
-	private void setTileAmount() {
-		setUpperTileAmount(getExcelDataHandler().getDays().size() / 2);
-		setLowerTileAmount(getExcelDataHandler().getDays().size() - getUpperTileAmount());
 	}
 
 	private void setComponents() {
@@ -138,16 +131,16 @@ public class ShapeP extends JPanel {
 	}
 
 	public Color checkTileStatus(int index) {
-		switch (getExcelDataHandler().days.get(index)) {
-		case 1:
-			return Color.green;
-		case 2:
-			return Color.orange;
-		case 3:
-			return Color.red;
-		default:
-			break;
-		}
+//		switch (getExcelDataHandler().days.get(index)) {
+//		case 1:
+//			return Color.green;
+//		case 2:
+//			return Color.orange;
+//		case 3:
+//			return Color.red;
+//		default:
+//			break;
+//		}
 		return Color.WHITE;
 	}
 
@@ -172,16 +165,8 @@ public class ShapeP extends JPanel {
 		return upperTileAmount;
 	}
 
-	public void setUpperTileAmount(int upperTileAmount) {
-		this.upperTileAmount = upperTileAmount;
-	}
-
 	public int getLowerTileAmount() {
 		return lowerTileAmount;
-	}
-
-	public void setLowerTileAmount(int lowerTileAmount) {
-		this.lowerTileAmount = lowerTileAmount;
 	}
 
 	public int getFrameWidth() {
