@@ -20,8 +20,8 @@ import javax.swing.JPanel;
 
 public class ShapeS extends JPanel {
 	private File security = new File(
-			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\2022.xlsx");
-	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath());
+			"C:\\Users\\AguF\\Documents\\GitHub\\extraordinary-ricefarm\\java_workspace\\ExcelFileReader\\src\\excel_files\\safety\\2022.xlsx");
+	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath(), 1);
 	private int upperTileAmount = 15;
 	private int lowerTileAmount = 16;
 	private int frameWidth;
@@ -62,6 +62,7 @@ public class ShapeS extends JPanel {
 
 	public void paint(Graphics g) {
 		Graphics2D g2d = (Graphics2D) g;
+		g2d.scale(0.2, 0.2);
 		g2d.setStroke(new BasicStroke(5));
 		int extent = 17;
 		int circleSize = 200;

@@ -10,10 +10,16 @@ public class Frame extends JFrame {
 	private int frameWidth = 1980;
 	private int frameHeight = 1200;
 	private ShapeS shapeS;
-	private ShapeP shapeQ;
+	private ShapeP shapeP;
+	private ShapeQ shapeQ;
+	private ShapeL shapeL;
 
 	public Frame(String letter) {
 		setShapeS(new ShapeS(getFrameWidth(), getFrameHeight()));
+		setShapeP(new ShapeP(getFrameWidth(), getFrameHeight()));
+		setShapeL(new ShapeL(getFrameWidth(), getFrameHeight()));
+		setShapeQ(new ShapeQ(getFrameWidth(), getFrameHeight()));
+
 		this.setTitle("Shape" + letter);
 		drawShape(letter);
 
@@ -32,9 +38,13 @@ public class Frame extends JFrame {
 		case "S":
 			this.add(getShapeS());
 			break;
+		case "P":
+			this.add(getShapeP());
+			break;
 		case "Q":
 			this.add(getShapeQ());
-			break;
+		case "L":
+			this.add(getShapeL());
 		default:
 			break;
 		}
@@ -64,12 +74,28 @@ public class Frame extends JFrame {
 		this.shapeS = shapeS;
 	}
 
-	public ShapeP getShapeQ() {
+	public ShapeP getShapeP() {
+		return shapeP;
+	}
+
+	public void setShapeP(ShapeP shapeP) {
+		this.shapeP = shapeP;
+	}
+
+	public ShapeQ getShapeQ() {
 		return shapeQ;
 	}
 
-	public void setShapeQ(ShapeP shapeQ) {
+	public void setShapeQ(ShapeQ shapeQ) {
 		this.shapeQ = shapeQ;
+	}
+
+	public ShapeL getShapeL() {
+		return shapeL;
+	}
+
+	public void setShapeL(ShapeL shapeL) {
+		this.shapeL = shapeL;
 	}
 
 }

@@ -19,21 +19,22 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class ShapeP extends JPanel {
-	private File security = new File(
-			"C:\\Working\\Workspace_OpenJDK-11\\.template_OpenJDK-11\\ExcelFileReader\\src\\excel_files\\safety\\january.xlsx");
-	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(security.getPath());
-	private int upperTileAmount = 15;
-	private int lowerTileAmount = 16;
+	private File quality = new File(
+			"C:\\Users\\AguF\\Documents\\GitHub\\extraordinary-ricefarm\\java_workspace\\ExcelFileReader\\src\\excel_files\\quality\\2022.xlsx");
+	private ExcelDataHandler excelDataHandler = new ExcelDataHandler(getQuality().getPath(), 1);
+	private int upperTileAmount;
+	private int lowerTileAmount;
 	private int frameWidth;
 	private int frameHeight;
 
 	private JButton screenshot = new JButton("Screenshot");
 
-	public ShapeP(int frameWidth, int frameHeight) {
+	public ShapeP(final int frameWidth, final int frameHeight) {
 		super();
 		this.setSize(frameWidth, frameHeight);
 		setFrameHeight(frameHeight);
 		setFrameWidth(frameWidth);
+		setTileAmount();
 		setComponents();
 	}
 
@@ -51,129 +52,117 @@ public class ShapeP extends JPanel {
 	public void screenshot() {
 		try {
 			final Robot robot = new Robot();
-			final Rectangle area = new Rectangle(830, 90, 320, 600);
+			final Rectangle area = new Rectangle(725, 160, 535, 560);
 			final BufferedImage bufferedImage = robot.createScreenCapture(area);
-			final File outputfile = new File("resources\\security.png");
+			final File outputfile = new File("resources\\quality.png");
 			ImageIO.write(bufferedImage, "png", outputfile);
 		} catch (final Exception e) {
 			System.out.println("Could not capture screen " + e.getMessage());
 		}
 	}
 
-	public void paint(Graphics g) {
-		Graphics2D g2d = (Graphics2D) g;
+	private void setTileAmount() {
+		setUpperTileAmount(getExcelDataHandler().getDays().size() / 2);
+		setLowerTileAmount(getExcelDataHandler().getDays().size() - getUpperTileAmount());
+	}
+
+	@Override
+	public void paint(final Graphics g) {
+		final Graphics2D g2d = (Graphics2D) g;
 		g2d.setStroke(new BasicStroke(5));
-		int extent = 17;
-		int circleSize = 200;
-		double posX = (getFrameWidth() / 2) - 250 + (circleSize / 2);
-		double posY = 100;
-		double tileSize = 300;
+		final double extent = 15;
 
-		drawUpperTileRing(g2d, extent, posX, posY, tileSize);
-		drawLowerTileRing(g2d, extent, posX, posY, tileSize);
-		drawOverlayCircle(g2d, circleSize);
-		drawStringDay(g2d, extent);
-	}
+		final double size = 1.7;
+		final double cirleSize = size * 200;
+		final double posX = (getFrameWidth() / 2) - (size * 250) + (cirleSize / 2);
+		final double posY = (size * 100);
+		final double tileSize = size * 300;
 
-	public void drawStringDay(Graphics2D g2d, int extent) {
+		final Arc2D lastTile = new Arc2D.Double(posX, posY, tileSize, tileSize, 180, 60, Arc2D.PIE);
+		g2d.setPaint(checkTileStatus(30));
+		g2d.fill(lastTile);
 		g2d.setPaint(Color.black);
-		g2d.rotate(Math.toRadians(208), 960, 247);
-		for (int tileIndex = getLowerTileAmount() - 1; tileIndex > 0; tileIndex--) {
-			g2d.setFont(new Font("TimesRoman", Font.BOLD, 14));
-			g2d.drawString(tileIndex + "", (float) (885), (float) (145));
-			g2d.rotate(Math.toRadians(extent + 0.2), 935, 255);
-		}
-		g2d.rotate(Math.toRadians(101), 1128, 296);
-		for (int tileIndex = 16; tileIndex < getUpperTileAmount() + getLowerTileAmount() + 1; tileIndex++) {
-			g2d.setFont(new Font("TimesRoman", Font.BOLD, 14));
-			g2d.drawString(tileIndex + "", (float) (1040), (float) (395));
-			g2d.rotate(Math.toRadians(extent + 0.2), 1005, 275);
-		}
-	}
-
-	public void drawUpperTileRing(Graphics2D g2d, int extent, double posX, double posY, double tileSize) {
-		for (int tileIndex = 0; tileIndex < getUpperTileAmount(); tileIndex++) {
-			Arc2D outerTile = new Arc2D.Double(posX, posY, tileSize, tileSize, 15 + (tileIndex * extent), extent,
+		g2d.draw(lastTile);
+		int count = 0;
+		for (int tileIndex = 29; tileIndex >= 10; tileIndex--) {
+			final Arc2D outerTile = new Arc2D.Double(posX, posY, tileSize, tileSize, (count * extent) + 240, extent,
 					Arc2D.PIE);
 			g2d.setPaint(checkTileStatus(tileIndex));
 			g2d.fill(outerTile);
 
-			Arc2D innerTile = new Arc2D.Double(posX + (tileSize / 6), posY + (tileSize / 6), tileSize / 1.5,
-					tileSize / 1.5, 15 + (tileIndex * extent), extent, Arc2D.PIE);
+			final Arc2D innerTile = new Arc2D.Double(posX + (tileSize / 6), posY + (tileSize / 6), tileSize / 1.5,
+					tileSize / 1.5, 240 + (count * extent), extent, Arc2D.PIE);
 			g2d.setPaint(Color.black);
 			g2d.fill(innerTile);
 			g2d.draw(outerTile);
+			count++;
 		}
-	}
 
-	public void drawLowerTileRing(Graphics2D g2d, int extent, double posX, double posY, double tileSize) {
-		int counter = 0;
-		for (int tileIndex = getLowerTileAmount() - 1; tileIndex >= 0; tileIndex--) {
-			Arc2D tileToDraw = new Arc2D.Double(posX, posY * 3.45, tileSize, tileSize, 178 + (tileIndex * extent),
-					extent, Arc2D.PIE);
-			g2d.setPaint(checkTileStatus(counter + getUpperTileAmount()));
-			g2d.fill(tileToDraw);
-			Arc2D innerTile = new Arc2D.Double(posX + (tileSize / 6), posY * 3.45 + (tileSize / 6), tileSize / 1.5,
-					tileSize / 1.5, 178 + (tileIndex * extent), extent, Arc2D.PIE);
-			g2d.setPaint(Color.black);
-			g2d.fill(innerTile);
-			g2d.draw(tileToDraw);
-			counter++;
-		}
-	}
-
-	public void drawOverlayCircle(Graphics2D g2d, double cirleSize) {
 		g2d.setPaint(Color.white);
-		g2d.fillOval((int) ((getFrameWidth() / 2) - (200) + (cirleSize / 2)) + 5, (int) (150) + 5, (int) cirleSize - 10,
-				(int) cirleSize - 10);
-		g2d.fillOval((int) ((getFrameWidth() / 2) - (200) + (cirleSize / 2)) + 5, (int) (396) + 5, (int) cirleSize - 10,
-				(int) cirleSize - 10);
+		g2d.fillOval((int) ((getFrameWidth() / 2) - (size * 200) + (cirleSize / 2)) + 5, (int) (size * 150) + 5,
+				(int) cirleSize - 10, (int) cirleSize - 10);
+		g2d.setPaint(Color.black);
+		g2d.drawOval((int) ((getFrameWidth() / 2) - (size * 200) + (cirleSize / 2)) + 3, (int) (size * 150) + 3,
+				(int) cirleSize - 5, (int) cirleSize - 5);
+
+		drawPole(g2d);
+		drawStringDay(g2d, extent);
 	}
 
-	public Color checkTileStatus(int index) {
-//		switch (getExcelDataHandler().days.get(index)) {
-//		case 1:
-//			return Color.green;
-//		case 2:
-//			return Color.orange;
-//		case 3:
-//			return Color.red;
-//		default:
-//			break;
-//		}
-		return Color.WHITE;
+	private void drawPole(Graphics2D g2d) {
+		for (int index = 0; index < 10; index++) {
+			g2d.setPaint(checkTileStatus(index));
+			g2d.fillRect(735, 425 + (index * 60), 87, 60);
+			g2d.setPaint(Color.black);
+			g2d.drawRect(735, 425 + (index * 60), 87, 60);
+		}
 	}
 
-	public static void drawRotate(Graphics2D g2d, double x, double y, int angle, String text) {
-		Font font = new Font(null, Font.PLAIN, 10);
-		AffineTransform affineTransform = new AffineTransform();
-		affineTransform.rotate(Math.toRadians(45), 0, 0);
-		Font rotatedFont = font.deriveFont(affineTransform);
-		g2d.setFont(rotatedFont);
-		g2d.drawString("A String", 0, 0);
+	public void drawStringDay(Graphics2D g2d, double extent) {
+		g2d.setFont(new Font("TimesRoman", Font.BOLD, 14));
+		g2d.setPaint(Color.black);
+		for (int i = 10; i > 0; i--) {
+			g2d.drawString(i + "", 775, 1060 - (i * 60));
+		}
+		g2d.setTransform(g2d.getTransform());
+		for (int tileIndex = 11; tileIndex <= 31; tileIndex++) {
+			g2d.drawString(tileIndex + "", (float) (775), (float) (400));
+			g2d.rotate(Math.toRadians(15), 990, 425);
+		}
+	}
+
+	public Color checkTileStatus(final int index) {
+		try {
+			switch (getExcelDataHandler().getDays().get(index)) {
+			case 1:
+				return Color.green;
+			case 2:
+				return Color.orange;
+			case 3:
+				return Color.red;
+			default:
+				break;
+			}
+		} catch (Exception e) {
+			return Color.white;
+		}
+
+		return Color.white;
 	}
 
 	public ExcelDataHandler getExcelDataHandler() {
 		return excelDataHandler;
 	}
 
-	public void setExcelDataHandler(ExcelDataHandler excelDataHandler) {
+	public void setExcelDataHandler(final ExcelDataHandler excelDataHandler) {
 		this.excelDataHandler = excelDataHandler;
-	}
-
-	public int getUpperTileAmount() {
-		return upperTileAmount;
-	}
-
-	public int getLowerTileAmount() {
-		return lowerTileAmount;
 	}
 
 	public int getFrameWidth() {
 		return frameWidth;
 	}
 
-	public void setFrameWidth(int frameWidth) {
+	public void setFrameWidth(final int frameWidth) {
 		this.frameWidth = frameWidth;
 	}
 
@@ -181,8 +170,32 @@ public class ShapeP extends JPanel {
 		return frameHeight;
 	}
 
-	public void setFrameHeight(int frameHeight) {
+	public void setFrameHeight(final int frameHeight) {
 		this.frameHeight = frameHeight;
+	}
+
+	public int getUpperTileAmount() {
+		return upperTileAmount;
+	}
+
+	public void setUpperTileAmount(final int upperTileAmount) {
+		this.upperTileAmount = upperTileAmount;
+	}
+
+	public int getLowerTileAmount() {
+		return lowerTileAmount;
+	}
+
+	public void setLowerTileAmount(final int lowerTileAmount) {
+		this.lowerTileAmount = lowerTileAmount;
+	}
+
+	public File getQuality() {
+		return quality;
+	}
+
+	public void setQuality(File quality) {
+		this.quality = quality;
 	}
 
 	public JButton getScreenshot() {
@@ -192,4 +205,5 @@ public class ShapeP extends JPanel {
 	public void setScreenshot(JButton screenshot) {
 		this.screenshot = screenshot;
 	}
+
 }
