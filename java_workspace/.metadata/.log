@@ -5121,3 +5121,2874 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:29:58.967
 !MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE buffering callback sts4.classpath.maGBJtlW HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE executing callback sts4.classpath.maGBJtlW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:38.386
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.203
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:39.219
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.281
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.296
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.296
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.296
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:39:54.296
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.748
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.764
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.764
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.765
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:15.768
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.716
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:42:55.732
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:47:54.096
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.823
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.838
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.838
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:44.838
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.268
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.268
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.268
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.268
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.283
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.283
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.283
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.283
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:48:51.283
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.259
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.259
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.259
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.259
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.259
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.274
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.274
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.274
+!MESSAGE buffering callback sts4.classpath.maGBJtlW TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.274
+!MESSAGE executing callback sts4.classpath.maGBJtlW 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:49:08.274
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.966
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.970
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.970
+!MESSAGE buffering callback sts4.classpath.maGBJtlW Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.970
+!MESSAGE executing callback sts4.classpath.maGBJtlW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:53:13.970
+!MESSAGE executing callback sts4.classpath.maGBJtlW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:54:25.191
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.maGBJtlW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:54:25.191
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.maGBJtlW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:54:25.191
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:54:25.191
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.maGBJtlW => OK
+!SESSION 2022-05-06 08:54:57.110 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_AT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\AguF\Documents\GitHub\extraordinary-ricefarm\java_workspace
+
+!ENTRY org.eclipse.jface 2 0 2022-05-06 08:54:59.881
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-06 08:54:59.881
+!MESSAGE A conflict occurred for CTRL+SHIFT+F11:
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(org.eclipse.eclemma.ui.commands.CoverageLast,Coverage,
+		Coverage,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a0e7f89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(jetbrains.teamcity.core.commands.remoteRun,Remote Run,
+		Fires Remote Run action,
+		Category(jetbrains.teamcity.core.commands.category,TeamCity Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@665ed71a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-06 08:54:59.881
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15c1b543,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23954300,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:03.728
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:03.728
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:03.744
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:03.790
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-06 08:55:03.960
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'X:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.427
+!MESSAGE Boot LS startup time from start to initialized: 1683ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.457
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dMAGJuFPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.457
+!MESSAGE subscribing to classpath changes: sts4.classpath.dMAGJuFP isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE subsribers = {sts4.classpath.dMAGJuFP=Send Classpath Notifications(85)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE project Destroyable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE project ExcelFileReader ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.467
+!MESSAGE project TestPanels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.475
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.475
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dMAGJuFP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.477
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.477
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.477
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.477
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.477
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.485
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.485
+!MESSAGE Preparing classpath changed notification ExcelFileReader
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.485
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.488
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.498
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP ExcelFileReader false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.498
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.498
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.498
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.506
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.506
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:05.531
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.454
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.454
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.454
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.454
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.454
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.470
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:27.624
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.463
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.463
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.463
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.479
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:40.486
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:55:52.327
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:57:29.387
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE buffering callback sts4.classpath.dMAGJuFP Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE executing callback sts4.classpath.dMAGJuFP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:58:12.940
+!MESSAGE executing callback sts4.classpath.dMAGJuFP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.487
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dMAGJuFP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.487
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dMAGJuFP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.487
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.487
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dMAGJuFP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.534
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.534
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 08:59:38.534
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.ui 2 2 2022-05-06 08:59:40.607
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:35.721
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:35.721
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:35.721
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.954
+!MESSAGE Boot LS startup time from start to initialized: 1233ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hKFKLXSIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE subscribing to classpath changes: sts4.classpath.hKFKLXSI isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE subsribers = {sts4.classpath.hKFKLXSI=Send Classpath Notifications(1023)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE project TestPanels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE project Destroyable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE project ExcelFileReader ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hKFKLXSI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE buffering callback sts4.classpath.hKFKLXSI TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE buffering callback sts4.classpath.hKFKLXSI Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Preparing classpath changed notification ExcelFileReader
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE buffering callback sts4.classpath.hKFKLXSI ExcelFileReader false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:36.985
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:37.001
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:37.001
+!MESSAGE buffering callback sts4.classpath.hKFKLXSI HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:37.001
+!MESSAGE executing callback sts4.classpath.hKFKLXSI 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:37.017
+!MESSAGE executing callback sts4.classpath.hKFKLXSI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.609
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hKFKLXSI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.609
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hKFKLXSI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.609
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.609
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hKFKLXSI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.725
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.725
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:45.725
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:46.970
+!MESSAGE Boot LS startup time from start to initialized: 1245ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:46.980
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZhdDPYWmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.011
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZhdDPYWm isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.011
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.011
+!MESSAGE subsribers = {sts4.classpath.ZhdDPYWm=Send Classpath Notifications(1044)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE project TestPanels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE project Destroyable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE project ExcelFileReader ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZhdDPYWm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Preparing classpath changed notification ExcelFileReader
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm ExcelFileReader false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.027
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:01:47.042
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:02:19.624
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.448
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:13.459
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm TestPanels false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:19.742
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:32.021
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.380
+!MESSAGE Preparing classpath changed notification TestPanels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.380
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.380
+!MESSAGE buffering callback sts4.classpath.ZhdDPYWm TestPanels true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.380
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.391
+!MESSAGE executing callback sts4.classpath.ZhdDPYWm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.514
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZhdDPYWm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.514
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZhdDPYWm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.514
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:03:42.514
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZhdDPYWm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:47.602
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:47.602
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:47.602
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.852
+!MESSAGE Boot LS startup time from start to initialized: 1250ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QoxvirAXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE subscribing to classpath changes: sts4.classpath.QoxvirAX isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE subsribers = {sts4.classpath.QoxvirAX=Send Classpath Notifications(1178)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE project ShowPath ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE project Destroyable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QoxvirAX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE buffering callback sts4.classpath.QoxvirAX HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.882
+!MESSAGE executing callback sts4.classpath.QoxvirAX 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:07:48.898
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.870
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.885
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.885
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.901
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.901
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.916
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.916
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.932
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 09:08:00.932
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.isSwitchLabeledRule(SwitchCase.java:336)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1545)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:18.268
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.048
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.048
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.048
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:25.063
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.714
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.714
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.714
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.730
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:26.730
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.958
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.958
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.958
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.958
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.958
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:42.964
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.346
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.346
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.346
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.346
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.362
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.362
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.362
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.362
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.362
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:45.368
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.964
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.964
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.964
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.979
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:08:57.979
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.922
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:11:49.938
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.051
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.066
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.066
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:13:21.066
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.527
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.527
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.527
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.527
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.527
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:18.543
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:27.770
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.603
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.603
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.603
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.603
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.603
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:28.618
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.051
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.066
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.066
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.066
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:36.881
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.588
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.588
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.588
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.588
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:56:57.594
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.103
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.103
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.109
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.109
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:18.109
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.932
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.932
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.932
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:21.939
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.972
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.988
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.988
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.988
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:22.988
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.320
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.320
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.336
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.336
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.336
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:52.336
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.605
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.605
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.605
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:55.620
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:57:57.323
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:05.478
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.460
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.475
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:50.491
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:51.077
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.855
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.871
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.871
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.871
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.871
+!MESSAGE executing callback sts4.classpath.QoxvirAX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:58:58.871
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE buffering callback sts4.classpath.QoxvirAX Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE buffering callback sts4.classpath.QoxvirAX ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.756
+!MESSAGE executing callback sts4.classpath.QoxvirAX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:25.772
+!MESSAGE executing callback sts4.classpath.QoxvirAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:34.927
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QoxvirAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:34.927
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QoxvirAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:34.927
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:34.927
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QoxvirAX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:37.378
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:37.378
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:37.378
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-06 09:59:38.494
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:509)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:498)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:815)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1553)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:513)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.648
+!MESSAGE Boot LS startup time from start to initialized: 1270ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ARbNkYDQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE subscribing to classpath changes: sts4.classpath.ARbNkYDQ isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE subsribers = {sts4.classpath.ARbNkYDQ=Send Classpath Notifications(1621)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE project ShowPath ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE project Destroyable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ARbNkYDQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.664
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.678
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 09:59:38.694
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:07.750
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.567
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.567
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.583
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.583
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.583
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:09.583
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.647
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:00:21.662
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:01.353
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.574
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.574
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.574
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.574
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.574
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:03.589
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:19.711
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 10:01:34.909
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.expressions(SwitchCase.java:281)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1548)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 10:01:34.909
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.expressions(SwitchCase.java:281)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1548)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-06 10:01:34.924
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.UnsupportedOperationException: Operation only supported in ASTs with previewEnabled flag as true
+	at org.eclipse.jdt.core.dom.ASTNode.unsupportedWithoutPreviewError(ASTNode.java:2131)
+	at org.eclipse.jdt.core.dom.SwitchCase.expressions(SwitchCase.java:281)
+	at org.eclipse.jdt.internal.corext.dom.ASTFlattener.visit(ASTFlattener.java:1548)
+	at org.eclipse.jdt.core.dom.SwitchCase.accept0(SwitchCase.java:234)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.asString(ASTNodes.java:157)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findSwitchCaseTarget(JavaElementHyperlinkDetector.java:280)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:108)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:01:52.509
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.368
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.368
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.368
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.368
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.368
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:24.384
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:02:33.919
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:18.326
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.086
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.086
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.086
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.086
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:26.102
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:42.328
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:05:50.586
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.742
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.742
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.742
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.742
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:50.757
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.981
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:57.997
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:08:58.604
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.138
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:30.153
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:36.960
+!MESSAGE Preparing classpath changed notification Destroyable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:36.960
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:36.960
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ Destroyable true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:36.960
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:36.960
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE buffering callback sts4.classpath.ARbNkYDQ ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:37.130
+!MESSAGE executing callback sts4.classpath.ARbNkYDQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:43.308
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ARbNkYDQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:43.308
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ARbNkYDQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:43.308
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:09:43.308
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ARbNkYDQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:07.955
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:07.955
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67f8cc21[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:07.955
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.213
+!MESSAGE Boot LS startup time from start to initialized: 1242ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MjjZxDXnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE subscribing to classpath changes: sts4.classpath.MjjZxDXn isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE subsribers = {sts4.classpath.MjjZxDXn=Send Classpath Notifications(1959)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE project ShowPath ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MjjZxDXn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.219
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.235
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.235
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.235
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:09.235
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.951
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.951
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.967
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.968
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:15.969
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:13:19.774
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.852
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.852
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.868
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.868
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.868
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:09.868
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.284
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.284
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.284
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.284
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.284
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:14:50.300
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.436
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.436
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.436
+!MESSAGE buffering callback sts4.classpath.MjjZxDXn ShowPath true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.436
+!MESSAGE executing callback sts4.classpath.MjjZxDXn 1 batched events
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-06 10:28:15.436
+!MESSAGE Problems occurred refreshing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-05-06 10:28:15.436
+!MESSAGE The project description file (.project) for 'ShowPath' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'ShowPath' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.Project.updateDescription(Project.java:1336)
+	at org.eclipse.core.internal.resources.File.updateMetadataFiles(File.java:382)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:291)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:118)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:977)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:960)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1552)
+	at org.eclipse.ui.actions.RefreshAction.refreshResource(RefreshAction.java:274)
+	at org.eclipse.ui.actions.RefreshAction$2.execute(RefreshAction.java:234)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jdt.ui.actions.RefreshAction$WrappedWorkbenchRefreshAction.run(RefreshAction.java:116)
+	at org.eclipse.jdt.ui.actions.RefreshAction.performRefresh(RefreshAction.java:193)
+	at org.eclipse.jdt.ui.actions.RefreshAction.access$0(RefreshAction.java:188)
+	at org.eclipse.jdt.ui.actions.RefreshAction$1.run(RefreshAction.java:182)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5834)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run(WorkbenchRunnableAdapter.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.436
+!MESSAGE executing callback sts4.classpath.MjjZxDXn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.536
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MjjZxDXn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.536
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MjjZxDXn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.536
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 10:28:15.536
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MjjZxDXn => OK
