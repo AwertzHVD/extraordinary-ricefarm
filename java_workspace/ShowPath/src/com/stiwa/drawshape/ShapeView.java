@@ -14,12 +14,14 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.time.LocalDate;
 import java.time.Month;
+import java.time.Year;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
 public class ShapeView extends JPanel {
-	private int month;
+	private int currentMonth;
+	private int currentYear;
 	private String[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September",
 			"October", "November", "December" };
 	private String letter = "S";
@@ -32,7 +34,7 @@ public class ShapeView extends JPanel {
 
 	public ShapeView(ViewPanel viewPanel) {
 		setViewPanel(viewPanel);
-		getCurrentMonth();
+		setDateMonth();
 		this.setVisible(true);
 		this.setBackground(Color.white);
 		this.setSize(new Dimension(1920 / 2, 980));
@@ -43,39 +45,58 @@ public class ShapeView extends JPanel {
 		screenshot();
 	}
 
-	private void getCurrentMonth() {
-		LocalDate currentdate = LocalDate.now();
-		Month currentMonth = currentdate.getMonth();
+	private void setDateMonth() {
+		LocalDate currentDate = LocalDate.now();
+		Month currentMonth = currentDate.getMonth();
 		for (int month = 0; month < getMonths().length; month++) {
 			if (getMonths()[month].equalsIgnoreCase(currentMonth.toString())) {
-				setMonth(month);
+				setCurrentMonth(month);
 			}
 		}
+		int currentYear = currentDate.getYear();
+		setCurrentYear(currentYear);
 	}
 
 	public void screenshot() {
 		try {
 			final Robot robot = new Robot();
-			final Rectangle area = new Rectangle(80, 90, 850, 900);
-			final BufferedImage bufferedImage = robot.createScreenCapture(area);
+			int scX = 0, scY = 0, scWidth = 0, scHeight = 0;
 			File parentFile = new File(System.getProperty("user.dir"));
 			File outputFile = null;
 			switch (getLetter()) {
 			case "S":
+				scX = 140;
+				scY = 273;
+				scWidth = 410;
+				scHeight = 741;
 				outputFile = new File(parentFile.getPath() + "\\resources\\safety.png");
 				break;
 			case "P":
+				scX = 154;
+				scY = 287;
+				scWidth = 457;
+				scHeight = 757;
 				outputFile = new File(parentFile.getPath() + "\\resources\\production.png");
 				break;
 			case "Q":
+				scX = 203;
+				scY = 336;
+				scWidth = 616;
+				scHeight = 642;
 				outputFile = new File(parentFile.getPath() + "\\resources\\quality.png");
 				break;
 			case "L":
+				scX = 106;
+				scY = 239;
+				scWidth = 613;
+				scHeight = 784;
 				outputFile = new File(parentFile.getPath() + "\\resources\\delivery.png");
 				break;
 			default:
 				break;
 			}
+			final Rectangle area = new Rectangle(scX, scY, scWidth, scHeight);
+			final BufferedImage bufferedImage = robot.createScreenCapture(area);
 			ImageIO.write(bufferedImage, "png", outputFile);
 		} catch (final Exception e) {
 			System.out.println("Could not capture screen " + e.getMessage());
@@ -91,19 +112,19 @@ public class ShapeView extends JPanel {
 		g2d.fillRect(50, 50, 850, 1100);
 		switch (getLetter()) {
 		case "S":
-			setExcelDataHandler(new ExcelDataHandler("safety", 2022, getMonth()));
+			setExcelDataHandler(new ExcelDataHandler("safety", getCurrentYear(), getCurrentMonth()));
 			drawShapeS(g2d);
 			break;
 		case "P":
-			setExcelDataHandler(new ExcelDataHandler("production", 2022, getMonth()));
+			setExcelDataHandler(new ExcelDataHandler("production", getCurrentYear(), getCurrentMonth()));
 			drawShapeP(g2d);
 			break;
 		case "Q":
-			setExcelDataHandler(new ExcelDataHandler("quality", 2022, getMonth()));
+			setExcelDataHandler(new ExcelDataHandler("quality", getCurrentYear(), getCurrentMonth()));
 			drawShapeQ(g2d);
 			break;
 		case "L":
-			setExcelDataHandler(new ExcelDataHandler("delivery", 2022, getMonth()));
+			setExcelDataHandler(new ExcelDataHandler("delivery", getCurrentYear(), getCurrentMonth()));
 			drawShapeL(g2d);
 			break;
 		default:
@@ -243,9 +264,9 @@ public class ShapeView extends JPanel {
 			g2d.fillRect(100, 100 + (index / 2 * 60), 87, 60);
 			g2d.setPaint(Color.black);
 			g2d.drawRect(100, 100 + (index / 2 * 60), 87, 60);
-			if (index>9) {
+			if (index > 9) {
 				g2d.drawString(index + 1 + "", 133, 137 + (index / 2 * 60));
-			}else {
+			} else {
 				g2d.drawString(index + 1 + "", 140, 137 + (index / 2 * 60));
 			}
 		}
@@ -354,12 +375,28 @@ public class ShapeView extends JPanel {
 		g2d.drawString("A String", 0, 0);
 	}
 
-	public JPanel getCurrentShape() {
-		return currentShape;
+	public int getCurrentMonth() {
+		return currentMonth;
 	}
 
-	public void setCurrentShape(JPanel currentShape) {
-		this.currentShape = currentShape;
+	public void setCurrentMonth(int currentMonth) {
+		this.currentMonth = currentMonth;
+	}
+
+	public int getCurrentYear() {
+		return currentYear;
+	}
+
+	public void setCurrentYear(int currentYear) {
+		this.currentYear = currentYear;
+	}
+
+	public String[] getMonths() {
+		return months;
+	}
+
+	public void setMonths(String[] months) {
+		this.months = months;
 	}
 
 	public String getLetter() {
@@ -370,12 +407,28 @@ public class ShapeView extends JPanel {
 		this.letter = letter;
 	}
 
+	public JPanel getCurrentShape() {
+		return currentShape;
+	}
+
+	public void setCurrentShape(JPanel currentShape) {
+		this.currentShape = currentShape;
+	}
+
 	public ExcelDataHandler getExcelDataHandler() {
 		return excelDataHandler;
 	}
 
 	public void setExcelDataHandler(ExcelDataHandler excelDataHandler) {
 		this.excelDataHandler = excelDataHandler;
+	}
+
+	public ViewPanel getViewPanel() {
+		return viewPanel;
+	}
+
+	public void setViewPanel(ViewPanel viewPanel) {
+		this.viewPanel = viewPanel;
 	}
 
 	public int getUpperTileAmount() {
@@ -392,30 +445,6 @@ public class ShapeView extends JPanel {
 
 	public void setLowerTileAmount(int lowerTileAmount) {
 		this.lowerTileAmount = lowerTileAmount;
-	}
-
-	public ViewPanel getViewPanel() {
-		return viewPanel;
-	}
-
-	public void setViewPanel(ViewPanel viewPanel) {
-		this.viewPanel = viewPanel;
-	}
-
-	public int getMonth() {
-		return month;
-	}
-
-	public void setMonth(int month) {
-		this.month = month;
-	}
-
-	public String[] getMonths() {
-		return months;
-	}
-
-	public void setMonths(String[] months) {
-		this.months = months;
 	}
 
 }

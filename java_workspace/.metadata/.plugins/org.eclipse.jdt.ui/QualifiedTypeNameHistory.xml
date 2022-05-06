@@ -46,4 +46,5 @@
 <fullyQualifiedTypeName name="Penel"/>
 <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.time.Year"/>
 </qualifiedTypeNameHistroy>

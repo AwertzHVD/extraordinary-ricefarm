@@ -41,6 +41,8 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="VisibilityModifier" value="1"/>
@@ -95,9 +97,11 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\AguF\Documents\GitHub\extraordinary-ricefarm\java_workspace"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Main (3) - Destroyable"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\AguF\Desktop\CreatePic\ShapesAndSizes.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="StartSession - ShowPath"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\AguF\Desktop\Gampern\Test.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\AguF\Desktop\Gampern\Test.jar"/>
+			<item value="C:\Users\AguF\Desktop\HelloWorld.jar"/>
 			<item value="C:\Users\AguF\Desktop\CreatePic\ShapesAndSizes.jar"/>
 			<item value="C:\Users\AguF\Desktop\ShapesAndSizes.jar"/>
 		</list>
