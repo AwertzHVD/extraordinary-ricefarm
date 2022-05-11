@@ -1,3 +1,4 @@
+package com.stiwa.helloworld;
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -11,7 +12,7 @@ public class Main extends JFrame {
 		setSize(600, 300);
 		setVisible(true);
 		setBackground(Color.DARK_GRAY);
-		Penel panel = new Penel();
+		Panel panel = new Panel();
 		this.add(panel);
 	}
 
