@@ -20,9 +20,10 @@ public class AuctionOverviewNew {
 		String[] info = input.split(",");
 		setCurrentBid(Integer.parseInt(info[0]));
 
+		int counter = 1;
 		for (int index = 1; index < info.length; index += 2) {
-			this.biddings.put(info[index], Integer.parseInt(info[index + 1]));
-
+			this.biddings.put(info[index] + "_" + counter, Integer.parseInt(info[index + 1]));
+			counter++;
 		}
 		Object[] keys = this.biddings.keySet().toArray();
 		int[] values = new int[this.biddings.size()];
