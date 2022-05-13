@@ -36,7 +36,7 @@ public class AuctionOverviewNewNEW {
 				System.out.println("jump");
 				continue;
 			}
-			if (this.biddingKeys.get(index).equalsIgnoreCase(previousBidderKey)) {
+			if (!this.biddingKeys.get(index).equalsIgnoreCase(previousBidderKey)) {
 				if (this.biddingVals.get(index) > previousBidderVal) {
 					setCurrentBid(previousBidderVal + 1);
 					previousBidderKey = this.biddingKeys.get(index);
