@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
-<fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFSheet"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.FormulaEvaluator"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
@@ -57,7 +53,11 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.stiwa.hashmap.auctionbidding.AuctionOverviewNewNEW"/>
+<fullyQualifiedTypeName name="com.stiwa.distancechecker.Lv1"/>
+<fullyQualifiedTypeName name="com.stiwa.distancechecker.Lv2"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.awt.Point"/>
+<fullyQualifiedTypeName name="com.stiwa.distancechecker.Lv2.Directions"/>
 </qualifiedTypeNameHistroy>

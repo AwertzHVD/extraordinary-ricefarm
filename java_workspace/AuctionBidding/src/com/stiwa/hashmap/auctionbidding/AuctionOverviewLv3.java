@@ -36,13 +36,14 @@ public class AuctionOverviewLv3 {
 		setHighestBidKey(getBiddingKeys().get(0));
 
 		for (int index = 0; index < getBiddingVals().size(); index++) {
-			if (getBiddingVals().get(index)==getHighestBidVal()) {
-				setHighestBidVal(getBiddingVals().get(index));
-				output += "," + getHighestBidKey() + "," + getHighestBidVal();
-				continue;
+			System.out.println(output);
+			if (getBiddingVals().get(index) == getCurrentBid()) {
+			setCurrentBid(getBiddingVals().get(index) + 1);
+			output += "," + getHighestBidKey() + "," + getCurrentBid();
 			}
 			if (getBiddingVals().get(index) < getHighestBidVal() && getBiddingVals().get(index) > getCurrentBid()) {
 				setCurrentBid(getBiddingVals().get(index) + 1);
+//				System.out.println(getBiddingKeys().get(index)+" landed here, index: "+index);
 				output += "," + getHighestBidKey() + "," + getCurrentBid();
 				continue;
 			}
@@ -54,13 +55,18 @@ public class AuctionOverviewLv3 {
 				continue;
 			}
 			if (getBiddingVals().get(index) > getHighestBidVal()) {
+				if (getBiddingKeys().get(index).equalsIgnoreCase(getHighestBidKey())) {
+					continue;
+				}
 				output += "," + getBiddingKeys().get(index) + "," + (getHighestBidVal() + 1);
 				setCurrentBid(getHighestBidVal() + 1);
 				setHighestBidVal(getBiddingVals().get(index));
 				setHighestBidKey(getBiddingKeys().get(index));
 				continue;
 			}
-			
+			if (getBiddingVals().get(index) < getHighestBidVal()) {
+				continue;
+			}
 		}
 		System.out.println(output);
 	}
