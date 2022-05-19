@@ -7,9 +7,9 @@ public class Lv2 {
 
 	static class Directions {
 		static int UP = 0;
-		static int DOWN = 1;
-		static int LEFT = 2;
-		static int RIGHT = 3;
+		static int RIGHT = 1;
+		static int DOWN = 2;
+		static int LEFT = 3;
 	}
 
 	private int steps;
@@ -18,8 +18,8 @@ public class Lv2 {
 	private Vector<Integer> repition = new Vector<Integer>();
 
 	public Lv2(String input) {
-		System.out.println();
 		process(input);
+		System.out.println();
 		distanceCheck();
 		calcRectArea();
 	}
@@ -32,6 +32,7 @@ public class Lv2 {
 			getMovement().add(data[i]);
 			getRepition().add(Integer.parseInt(data[i + 1]));
 		}
+
 	}
 
 	private void distanceCheck() {
@@ -52,76 +53,73 @@ public class Lv2 {
 	}
 
 	private void calcRectArea() {
-		int length = 0;
-		int width = 0;
 
-		Vector<Point> points = new Vector<Point>();
-
-		points.add(new Point(0, 0));
-
-		int x = 0;
-		int y = 0;
-
-		int direction = Directions.UP;
-
-		for (int index = 0; index < getMovement().size(); index++) {
-			for (int i = 0; i < getMovement().get(index).length(); i++) {
-				int move = getMovement().get(index).charAt(i);
-
-				if (direction == Directions.UP) {
-					if (move == 'F') {
-						y++;
-					}
-					if (move == 'L') {
-						direction = Directions.LEFT;
-					}
-					if (move == 'R') {
-						direction = Directions.RIGHT;
-					}
-				}
-
-				if (direction == Directions.DOWN) {
-					if (move == 'F') {
-						y--;
-					}
-					if (move == 'L') {
-						direction = Directions.RIGHT;
-					}
-					if (move == 'R') {
-						direction = Directions.LEFT;
-					}
-				}
-
-				if (direction == Directions.LEFT) {
-					if (move == 'F') {
-						x--;
-					}
-					if (move == 'L') {
-						direction = Directions.DOWN;
-					}
-					if (move == 'R') {
-						direction = Directions.UP;
-					}
-				}
-
-				if (direction == Directions.RIGHT) {
-					if (move == 'F') {
-						x++;
-					}
-					if (move == 'L') {
-						direction = Directions.UP;
-					}
-					if (move == 'R') {
-						direction = Directions.DOWN;
-					}
-				}
-
+		String fullSteps = "";
+		for (int i = 0; i < getMovement().size(); i++) {
+			for (int j = 0; j < getRepition().get(i); j++) {
+				fullSteps += getMovement().get(i);
 			}
 		}
 
-		System.out.println(x + "|" + y);
+		int length = 0;
+		int width = 0;
 
-//		calcArea(length, width);
+		Vector<Integer> xVal = new Vector<Integer>();
+		Vector<Integer> yVal = new Vector<Integer>();
+
+		int direction = Directions.UP;
+		int x = 0;
+		int y = 0;
+
+		for (int index = 0; index < fullSteps.length(); index++) {
+			char move = fullSteps.charAt(index);
+
+			if (move == 'F') {
+				if (direction == Directions.UP) {
+					y++;
+				}
+				if (direction == Directions.RIGHT) {
+					x++;
+				}
+				if (direction == Directions.DOWN) {
+					y--;
+				}
+				if (direction == Directions.LEFT) {
+					x--;
+				}
+			} else if (move == 'R') {
+				if (direction == Directions.UP) {
+					direction = Directions.RIGHT;
+				} else if (direction == Directions.RIGHT) {
+					direction = Directions.DOWN;
+				} else if (direction == Directions.DOWN) {
+					direction = Directions.LEFT;
+				} else if (direction == Directions.LEFT) {
+					direction = Directions.UP;
+				}
+			} else if (move == 'L') {
+				if (direction == Directions.UP) {
+					direction = Directions.LEFT;
+				} else if (direction == Directions.LEFT) {
+					direction = Directions.DOWN;
+				} else if (direction == Directions.DOWN) {
+					direction = Directions.RIGHT;
+				} else if (direction == Directions.RIGHT) {
+					direction = Directions.UP;
+				}
+			}
+			xVal.add(x);
+			yVal.add(y);
+
+		}
+
+		xVal.sort(null);
+		yVal.sort(null);
+
+		length = xVal.get(xVal.size() - 1)-xVal.get(0);
+		width = yVal.get(yVal.size() - 1)-yVal.get(0);
+
+		calcArea(length, width);
 	}
 
 	private void calcArea(int length, int width) {
