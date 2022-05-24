@@ -58,6 +58,16 @@ public class Lv5 {
 		setSteps(counter);
 	}
 
+	private String getAllSteps() {
+		String fullSteps = "";
+		for (int i = 0; i < getMovement().size(); i++) {
+			for (int j = 0; j < getRepition().get(i); j++) {
+				fullSteps += getMovement().get(i);
+			}
+		}
+		return fullSteps;
+	}
+
 	private void calcRectArea() {
 		String fullSteps = getAllSteps();
 
@@ -128,7 +138,6 @@ public class Lv5 {
 
 		xVal.add(x);
 		yVal.add(y);
-		int counter = 0;
 		for (int index = 0; index < fullSteps.length(); index++) {
 			char move = fullSteps.charAt(index);
 
@@ -142,7 +151,6 @@ public class Lv5 {
 				} else if (direction == Directions.LEFT) {
 					x--;
 				}
-				counter++;
 			} else if (move == 'R') {
 				if (direction == Directions.UP) {
 					direction = Directions.RIGHT;
@@ -167,7 +175,6 @@ public class Lv5 {
 			xVal.add(x);
 			yVal.add(y);
 		}
-		System.out.println("counter: " + counter);
 
 		createPointsTemp(xVal, yVal);
 
@@ -196,6 +203,100 @@ public class Lv5 {
 	}
 
 	private void calcPockets(Vector<Integer> xVal, Vector<Integer> yVal) {
+		Vector<Point> xMinMax = calcXMinMax(xVal, yVal);
+		Vector<Point> yMinMax = calcYMinMax(xVal, yVal);
+		Vector<Point> points = new Vector<Point>();
+
+		int areaForX = 0;
+		for (int index = 0; index < xMinMax.size() - 2; index += 2) {
+			int distanceCurrent = Math.abs(xMinMax.get(index + 1).y - xMinMax.get(index).y);
+			int distanceNext = Math.abs(xMinMax.get(index + 3).y - xMinMax.get(index + 2).y);
+			int distanceToAdd = 0;
+			if (distanceCurrent == distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent <= distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent >= distanceNext) {
+				distanceToAdd = distanceNext;
+			}
+			for (int i = 0; i < distanceToAdd; i++) {
+				points.add(new Point(xMinMax.get(index).x, (xMinMax.get(index).y + i)));
+			}
+			areaForX += distanceToAdd;
+		}
+		for (int i = 0; i < points.size(); i++) {
+			System.out.println(points.get(i).getLocation());
+		}
+		System.out.println("-----");
+		int areaForY = 0;
+		int counter = 0;
+		for (int index = 0; index < yMinMax.size() - 2; index += 2) {
+			int distanceCurrent = Math.abs(yMinMax.get(index + 1).x - yMinMax.get(index).x);
+			int distanceNext = Math.abs(yMinMax.get(index + 3).x - yMinMax.get(index + 2).x);
+			int distanceToAdd = 0;
+			if (distanceCurrent == distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent <= distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent >= distanceNext) {
+				distanceToAdd = distanceNext;
+			}
+			for (int i = 0; i < distanceToAdd; i++) {
+				Point temp = null;
+				try {
+					temp = new Point(yMinMax.get(index).x+i, yMinMax.get(index).y);
+					System.out.println(temp.getLocation());
+					if (!points.contains(temp)) {
+						counter++;
+					}
+				} catch (Exception e) {
+					System.out.println("landed here");
+				}
+			}
+			areaForY += distanceToAdd;
+		}
+
+		int horizontal = Math.abs(areaForX - getAreaFigure());
+		int vertical = Math.abs(areaForY - getAreaFigure());
+
+		System.out.println("vertical:\t" + vertical + "\tarea: " + areaForY);
+		System.out.println("horizontal:\t" + horizontal + "\tarea: " + areaForX);
+		System.out.println("both:\t\t" + (vertical + horizontal));
+		System.out.println("counter:\t" + counter);
+
+		setPockets(horizontal + vertical - counter);
+	}
+
+	private Vector<Point> calcYMinMax(Vector<Integer> xVal, Vector<Integer> yVal) {
+		Vector<Integer> everyYPos = new Vector<Integer>();
+		for (int i = 0; i < yVal.size(); i++) {
+			if (!everyYPos.contains(yVal.get(i))) {
+				everyYPos.add(yVal.get(i));
+			}
+		}
+		everyYPos.sort(null);
+		Vector<Vector<Integer>> xValVec = new Vector<Vector<Integer>>();
+		for (int i = 0; i < everyYPos.size(); i++) {
+			Vector<Integer> xValOfY = new Vector<Integer>();
+			for (int j = 0; j < xVal.size(); j++) {
+				if (yVal.get(j) == everyYPos.get(i)) {
+					xValOfY.add(xVal.get(j));
+				}
+			}
+			xValVec.add(xValOfY);
+		}
+
+		Vector<Point> yMinMax = new Vector<Point>();
+		for (int i = 0; i < everyYPos.size(); i++) {
+			int min = Collections.min(xValVec.get(i));
+			int max = Collections.max(xValVec.get(i));
+			yMinMax.add(new Point(min, everyYPos.get(i)));
+			yMinMax.add(new Point(max, everyYPos.get(i)));
+		}
+		return yMinMax;
+	}
+
+	private Vector<Point> calcXMinMax(Vector<Integer> xVal, Vector<Integer> yVal) {
 		Vector<Integer> everyXPos = new Vector<Integer>();
 		for (int i = 0; i < xVal.size(); i++) {
 			if (!everyXPos.contains(xVal.get(i))) {
@@ -203,95 +304,26 @@ public class Lv5 {
 			}
 		}
 		everyXPos.sort(null);
-		Vector<Vector<Integer>> tempy = new Vector<Vector<Integer>>();
+		Vector<Vector<Integer>> yValVec = new Vector<Vector<Integer>>();
 		for (int i = 0; i < everyXPos.size(); i++) {
-			Vector<Integer> tempytemp = new Vector<Integer>();
+			Vector<Integer> yValOfX = new Vector<Integer>();
 			for (int j = 0; j < yVal.size(); j++) {
 				if (xVal.get(j) == everyXPos.get(i)) {
-					tempytemp.add(yVal.get(j));
+					yValOfX.add(yVal.get(j));
 				}
 			}
-			tempy.add(tempytemp);
+			yValVec.add(yValOfX);
 		}
 
-		int innerGridPoints = 0;
-		for (int i = 1; i < everyXPos.size() - 1; i++) {
-			int min = Collections.min(tempy.get(i));
-			int max = Collections.max(tempy.get(i))-1;
-			System.out.println(min + " " + max);
-			innerGridPoints += max - min;
-		}
-		int result = calcPick(innerGridPoints, getSteps());
-		System.out.println("result: " + result);
-		setPockets(result - getAreaFigure());
-
-	}
-
-	private int calcPick(int inner, int outer) {
-		System.out.println("inner: " + inner);
-		int area = (inner + (outer / 2));
-		return area - 1;
-	}
-
-	private void printAllCoords(Vector<Integer> xVal, Vector<Integer> yVal) {
-		for (int i = 0; i < xVal.size(); i++) {
-			if (xVal.get(i) >= 0 && yVal.get(i) >= 0) {
-				System.out.println("+" + xVal.get(i) + " | +" + yVal.get(i));
-			}
-			if (xVal.get(i) < 0 && yVal.get(i) >= 0) {
-				System.out.println(xVal.get(i) + " | +" + yVal.get(i));
-			}
-			if (xVal.get(i) < 0 && yVal.get(i) < 0) {
-				System.out.println(xVal.get(i) + " | " + yVal.get(i));
-			}
-			if (xVal.get(i) >= 0 && yVal.get(i) < 0) {
-				System.out.println("+" + xVal.get(i) + " | " + yVal.get(i));
-			}
-		}
-	}
-
-	private void printCoords(Vector<Integer> xVal, Vector<Integer> yVal) {
-		System.out.println("TOP RIGHT");
-		System.out.println("+" + xVal.get(0) + " | +" + yVal.get(0));
-		for (int i = 1; i < xVal.size(); i++) {
-			if (xVal.get(i) >= 0 && yVal.get(i) >= 0) {
-				System.out.println("+" + xVal.get(i) + " | +" + yVal.get(i));
-			}
+		Vector<Point> xMinMax = new Vector<Point>();
+		for (int i = 0; i < everyXPos.size(); i++) {
+			int min = Collections.min(yValVec.get(i));
+			int max = Collections.max(yValVec.get(i));
+			xMinMax.add(new Point(everyXPos.get(i), min));
+			xMinMax.add(new Point(everyXPos.get(i), max));
 		}
 
-		System.out.println("\nTOP LEFT");
-		System.out.println("+" + xVal.get(0) + " | +" + yVal.get(0));
-		for (int i = 1; i < xVal.size(); i++) {
-			if (xVal.get(i) < 0 && yVal.get(i) >= 0) {
-				System.out.println(xVal.get(i) + " | +" + yVal.get(i));
-			}
-		}
-
-		System.out.println("\nBOTTOM LEFT");
-		System.out.println("+" + xVal.get(0) + " | +" + yVal.get(0));
-		for (int i = 1; i < xVal.size(); i++) {
-			if (xVal.get(i) < 0 && yVal.get(i) < 0) {
-				System.out.println(xVal.get(i) + " | " + yVal.get(i));
-			}
-		}
-
-		System.out.println("\nBOTTOM RIGHT");
-		System.out.println("+" + xVal.get(0) + " | +" + yVal.get(0));
-		for (int i = 0; i < xVal.size(); i++) {
-			if (xVal.get(i) >= 0 && yVal.get(i) < 0) {
-				System.out.println("+" + xVal.get(i) + " | " + yVal.get(i));
-			}
-		}
-	}
-
-	private String getAllSteps() {
-		String fullSteps = "";
-		for (int i = 0; i < getMovement().size(); i++) {
-			for (int j = 0; j < getRepition().get(i); j++) {
-				fullSteps += getMovement().get(i);
-			}
-		}
-		return fullSteps;
+		return xMinMax;
 	}
 
 	public int getSteps() {
@@ -300,30 +332,6 @@ public class Lv5 {
 
 	public void setSteps(int steps) {
 		this.steps = steps;
-	}
-
-	public int getInputMoves() {
-		return inputMoves;
-	}
-
-	public void setInputMoves(int inputMoves) {
-		this.inputMoves = inputMoves;
-	}
-
-	public Vector<String> getMovement() {
-		return movement;
-	}
-
-	public void setMovement(Vector<String> movement) {
-		this.movement = movement;
-	}
-
-	public Vector<Integer> getRepition() {
-		return repition;
-	}
-
-	public void setRepition(Vector<Integer> repition) {
-		this.repition = repition;
 	}
 
 	public int getArea() {
@@ -342,12 +350,36 @@ public class Lv5 {
 		this.areaFigure = areaFigure;
 	}
 
+	public int getInputMoves() {
+		return inputMoves;
+	}
+
+	public void setInputMoves(int inputMoves) {
+		this.inputMoves = inputMoves;
+	}
+
 	public int getPockets() {
 		return pockets;
 	}
 
 	public void setPockets(int pockets) {
 		this.pockets = pockets;
+	}
+
+	public Vector<String> getMovement() {
+		return movement;
+	}
+
+	public void setMovement(Vector<String> movement) {
+		this.movement = movement;
+	}
+
+	public Vector<Integer> getRepition() {
+		return repition;
+	}
+
+	public void setRepition(Vector<Integer> repition) {
+		this.repition = repition;
 	}
 
 	public int getRectLength() {

@@ -10,7 +10,7 @@ public class StartDistanceChecker {
 
 //
 		for (String input : inputs) {
-			Lv5 lv4 = new Lv5(input);
+//			Lv5 lv4 = new Lv5(input);
 		}
 
 		String temp1 = "1 FFL 1 FFR 2 FFL 1 FFR 1 FFFFFR 1 FFR 1 FFFL 1 FFL 1 FFFFR 1 FFR 1 F 6";
@@ -19,9 +19,10 @@ public class StartDistanceChecker {
 
 //		Lv3 lv3 = new Lv3(inputs[1]);
 
-		System.out.println();
+//		Lv5 lv5 = new Lv5("1 FFFR 1 FFFFR 1 FFFR 1 FFR 1 FR 1 FL 2 FFL 1 FFR 1 F 1"); 
 
-//		Lv5 lv5 = new Lv5(inputs[2]);
+		
+		Lv5 lv5 = new Lv5(inputs[1]); //111
 	}
 
 }
