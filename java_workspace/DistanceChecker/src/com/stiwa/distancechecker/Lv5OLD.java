@@ -8,7 +8,7 @@ import java.util.Vector;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
-public class Lv5 {
+public class Lv5OLD {
 	static class Directions {
 		static int UP = 0;
 		static int RIGHT = 1;
@@ -26,7 +26,7 @@ public class Lv5 {
 	private int rectLength;
 	private int rectWidth;
 
-	public Lv5(String input) {
+	public Lv5OLD(String input) {
 		process(input);
 		distanceCheck();
 		calcRectArea();
@@ -221,27 +221,61 @@ public class Lv5 {
 	private void calcPockets(Vector<Integer> xVal, Vector<Integer> yVal) {
 		Vector<Point> xMinMax = calcXMinMax(xVal, yVal);
 		Vector<Point> yMinMax = calcYMinMax(xVal, yVal);
+		Vector<Point> blocksX = new Vector<Point>();
+		Vector<Point> blocksY = new Vector<Point>();
 
-		int counter1 = 0;
-		for (int j = 0; j < xMinMax.size() - 2; j += 2) {
-			for (int i = 0; i < (int) xMinMax.get(j).distance(xMinMax.get(j + 1)); i++) {
-				System.out.println(xMinMax.get(j).x + " " + i);
-				counter1++;
+		for (int index = 0; index < xMinMax.size() - 2; index += 2) {
+			int distanceCurrent = Math.abs(xMinMax.get(index + 1).y - xMinMax.get(index).y);
+			int distanceNext = Math.abs(xMinMax.get(index + 3).y - xMinMax.get(index + 2).y);
+			int distanceToAdd = 0;
+			if (distanceCurrent == distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent <= distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent >= distanceNext) {
+				distanceToAdd = distanceNext;
+			}
+
+			for (int i = 0; i < distanceToAdd; i++) {
+				blocksX.add(new Point(xMinMax.get(index).x, i));
 			}
 		}
-		
-		System.out.println("counter1: " + counter1);
-	}
 
-	private void temp(Vector<Point> xMinMax, Vector<Point> yMinMax) {
-		for (int i = 0; i < xMinMax.size() - 2; i += 2) {
-			System.out.println((int) xMinMax.get(i).distance(xMinMax.get(i + 1)));
+		for (int index = 0; index < yMinMax.size() - 2; index += 2) {
+			int distanceCurrent = Math.abs(yMinMax.get(index + 1).x - yMinMax.get(index).x);
+			int distanceNext = Math.abs(yMinMax.get(index + 3).x - yMinMax.get(index + 2).x);
+			int distanceToAdd = 0;
+			if (distanceCurrent == distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent <= distanceNext) {
+				distanceToAdd = distanceCurrent;
+			} else if (distanceCurrent >= distanceNext) {
+				distanceToAdd = distanceNext;
+			}
+
+			for (int i = 0; i < distanceToAdd; i++) {
+				blocksY.add(new Point(i, yMinMax.get(index).y));
+			}
 		}
+
+		Vector<Point> destroy = new Vector<Point>();
+		for (int i = 0; i < xMinMax.size(); i++) {
+			if (!destroy.contains(xMinMax.get(i))) {
+				destroy.add(xMinMax.get(i));
+			}
+		}
+		for (int j = 0; j < yMinMax.size(); j++) {
+			if (!destroy.contains(yMinMax.get(j))) {
+				destroy.add(yMinMax.get(j));
+			}
+		}
+
 		System.out.println();
-
-		for (int i = 0; i < yMinMax.size() - 2; i += 2) {
-			System.out.println((int) yMinMax.get(i).distance(yMinMax.get(i + 1)));
-		}
+//		System.out.println("destroy:\t" + destroy.size() + "\tres: " + (destroy.size() - getAreaFigure()));
+//		System.out.println("horizontal:\t" + blocksX.size());
+//		System.out.println("vertical:\t" + blocksY.size());
+		System.out.println(calcArea(destroy));
+		setPockets(calcArea(destroy) - getAreaFigure());
 	}
 
 	private void printAllCoords(Vector<Point> blocks) {

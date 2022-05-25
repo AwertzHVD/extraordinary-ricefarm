@@ -10608,3 +10608,1280 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.ui 2 2 2022-05-24 16:42:36.557
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-05-25 07:33:50.992 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_AT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\AguF\Documents\GitHub\extraordinary-ricefarm\java_workspace
+
+!ENTRY org.eclipse.jface 2 0 2022-05-25 07:33:54.183
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-25 07:33:54.183
+!MESSAGE A conflict occurred for CTRL+SHIFT+F11:
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(org.eclipse.eclemma.ui.commands.CoverageLast,Coverage,
+		Coverage,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77fb1002,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+F11,
+	ParameterizedCommand(Command(jetbrains.teamcity.core.commands.remoteRun,Remote Run,
+		Fires Remote Run action,
+		Category(jetbrains.teamcity.core.commands.category,TeamCity Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e2f6a45,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-25 07:33:54.183
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24cbf894,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c19769c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:57.608
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:57.608
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@694acdc5[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:57.608
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:57.671
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-25 07:33:57.856
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'X:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 07:33:58.597
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.347
+!MESSAGE Boot LS startup time from start to initialized: 1723ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 07:33:59.369
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.lambda$11(LSPTextHover.java:237)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.lambda$10(LSPTextHover.java:246)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:602)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:443)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:242)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QwgHCpNIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE subscribing to classpath changes: sts4.classpath.QwgHCpNI isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE subsribers = {sts4.classpath.QwgHCpNI=Send Classpath Notifications(69)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.369
+!MESSAGE project DistanceChecker ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE project AuctionBidding ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE Preparing classpath changed notification DistanceChecker
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE project GampernProject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE project GnomeSort ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE project HelloWorld ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE project ShowPath ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QwgHCpNI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI DistanceChecker false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE Preparing classpath changed notification AuctionBidding
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI AuctionBidding false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE Preparing classpath changed notification GnomeSort
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GnomeSort false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE Preparing classpath changed notification HelloWorld
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI HelloWorld false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.400
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:33:59.416
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.507
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:39:14.523
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.399
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:40:11.414
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.321
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.321
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.323
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.324
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.324
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.325
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.326
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.327
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.327
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 07:52:58.336
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.315
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.317
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.318
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.319
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.319
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.320
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.321
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.322
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:03:54.325
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.783
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.784
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.785
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.786
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.787
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.788
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.789
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.790
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 08:40:32.793
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.851
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.851
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.854
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.855
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.855
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.856
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.857
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.858
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.858
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:11:20.862
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.691
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.691
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.693
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.694
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.694
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.695
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.696
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.697
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.697
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:12:06.700
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.773
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.776
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.777
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.777
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.779
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.780
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.780
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:12.783
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.474
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.475
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.476
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.477
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.478
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.478
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.480
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.481
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.481
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 10:32:26.484
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.314
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.317
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.318
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.318
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.319
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.320
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.321
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.322
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:02:43.325
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.584
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.585
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.586
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.588
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.588
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.590
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.590
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.591
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 11:03:09.593
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 11:28:43.920
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.689
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.690
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.691
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.692
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.693
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.693
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.694
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.695
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.696
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:39:09.699
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.544
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.544
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.546
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.547
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.547
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.547
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.549
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.550
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.550
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 12:54:01.553
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.874
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.875
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.877
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.878
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.879
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.879
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.881
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.882
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.882
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:28.885
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.901
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.903
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.904
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.905
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.905
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.907
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.908
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.908
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:12:29.910
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.937
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.940
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.941
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.942
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.944
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.945
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.945
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:34.948
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.413
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.414
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.416
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.417
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.417
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.418
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.419
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.420
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.420
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:31:55.422
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.736
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.737
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.740
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.741
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.741
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.744
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.745
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.746
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:32:10.748
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.162
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.165
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.166
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.166
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.168
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.169
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.169
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:22.172
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.231
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.231
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.233
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.234
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.235
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.235
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.236
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.237
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.238
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 13:54:46.240
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.390
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.393
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.394
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.395
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.396
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.397
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.398
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.399
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:08:53.402
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.447
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.448
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.450
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.451
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.451
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.452
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.453
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.454
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.454
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:12:17.457
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.298
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.299
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.300
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.302
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.302
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.303
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.304
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.305
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.306
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:15:47.309
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.415
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.416
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.418
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.419
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.419
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.421
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.422
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.422
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:20:34.425
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.100
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.101
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.103
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.104
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.104
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.105
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.106
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.107
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.107
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:29.111
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.128
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.129
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.131
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.132
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.132
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.132
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.134
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.135
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.135
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 14:57:30.137
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.809
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.811
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.812
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.813
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.813
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.814
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.815
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.815
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:00:05.818
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.232
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.234
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.235
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.235
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.237
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.238
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.238
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:11:14.242
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.674
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.675
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.676
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.677
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.678
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.678
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.680
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.681
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.682
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:01.685
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.519
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.520
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.522
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.524
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.525
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.526
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.528
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.530
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.530
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.533
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.692
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.692
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.694
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.695
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.696
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.696
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.697
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.698
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.698
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:47:49.700
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.412
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.413
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.414
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.415
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.416
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.416
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.417
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.418
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.419
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:48:07.422
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 16:19:02.748
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.423
+!MESSAGE Preparing classpath changed notification GampernProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.423
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.425
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.426
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI GampernProject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.426
+!MESSAGE Preparing classpath changed notification ShowPath
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.427
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.428
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.429
+!MESSAGE buffering callback sts4.classpath.QwgHCpNI ShowPath false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.429
+!MESSAGE executing callback sts4.classpath.QwgHCpNI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:22:30.432
+!MESSAGE executing callback sts4.classpath.QwgHCpNI SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 16:23:28.029
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:59:04.072
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QwgHCpNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:59:04.073
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QwgHCpNI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:59:04.073
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 16:59:04.074
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QwgHCpNI => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-05-25 16:59:04.465
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
