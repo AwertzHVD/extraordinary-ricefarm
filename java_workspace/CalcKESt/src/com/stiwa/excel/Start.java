@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Start {
 	static DecimalFormat df = new DecimalFormat("0.00000");
+
 	public static void main(String[] args) {
 		ExcelDataHandler edh = new ExcelDataHandler();
 		ArrayList<Transaction> excelData = edh.getAl();
@@ -52,17 +53,22 @@ public class Start {
 			if (!filteredData.get(i).getKind().equalsIgnoreCase("Verkauf")) {
 				gewichtete += Math.abs(filteredData.get(i).getAmount()) * Math.abs(share);
 				previousKind = filteredData.get(i).getKind();
-				System.out.println("KAUF " + filteredData.get(i) + " share: " + df.format(share) + " conPrice: "
-						+ df.format(lfdPreis) + " conAmount: " + df.format(lfdStück) + " conShare: "
-						+ df.format(lfdKurs) + " gewichtete: " + df.format(gewichtete) + " sumAmount: " + sumAmount);
+				System.out.println("KAUF\t" +
+//				filteredData.get(i) + " share: " + df.format(share) + " conPrice: "
+//						+ df.format(lfdPreis) + " conAmount: " + df.format(lfdStück) + " conShare: "
+//						+ df.format(lfdKurs) + 
+						" gewichtete: " + df.format(gewichtete) + "\tsumAmount: " + df.format(sumAmount));
 				sumAmount += filteredData.get(i).getAmount();
 			} else {
 				average = gewichtete / sumAmount;
 				rest = 0;
-				System.out.println("VERKAUF " + filteredData.get(i) + " share: " + df.format(share) + " conPrice: "
-						+ df.format(lfdPreis) + " conAmount: " + df.format(lfdStück) + " conShare: "
-						+ df.format(lfdKurs) + " gewichtete: " + df.format(gewichtete) + " average: " + average
-						+ " sumAmount: " + sumAmount);
+				System.out.println("VERKAUF\t" +
+//				filteredData.get(i) + " share: " + df.format(share) + " conPrice: "
+//						+ df.format(lfdPreis) + " conAmount: " + df.format(lfdStück) + " conShare: "
+//						+ df.format(lfdKurs) + 
+						" gewichtete: " + df.format(gewichtete) + "\taverage: " + df.format(average) + " sumAmount: "
+						+ df.format(sumAmount));
+				sumAmount = 0;
 				gewichtete = 0;
 			}
 		}
