@@ -19,7 +19,7 @@ public class StartDistanceChecker {
 
 //		Lv3 lv3 = new Lv3(inputs[1]);
 
-		Lv5 lv5 = new Lv5("1 L 1 FR 1 FFFFR 2 F 6 R 1 FFR 1 FR 1 FL 1 F 4 L 1 FFL 1 F 3"); 
+		Lv5OLD lv5 = new Lv5OLD("1 L 1 FR 1 FFFFR 2 F 6 R 1 FFR 1 FR 1 FL 1 F 4 L 1 FFL 1 F 3"); 
 
 //		Lv5 lv5 = new Lv5(inputs[2]); //111 /102
 		
