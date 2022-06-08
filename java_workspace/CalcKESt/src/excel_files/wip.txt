@@ -1,0 +1,29 @@
+double gewichtete = 0;
+		double lfdPreis = 0;
+		double lfdStück = 0;
+		double lfdKurs = 0;
+		double durchschnitt = 0;
+		double sumAmount = 0;
+		for (int i = 0; i < filteredData.size(); i++) {
+			lfdPreis += filteredData.get(i).getValue();
+			lfdStück += filteredData.get(i).getAmount();
+			lfdKurs = lfdPreis / lfdStück;
+			double share = filteredData.get(i).getValue() / filteredData.get(i).getAmount();
+//			if (!filteredData.get(i).getKind().equalsIgnoreCase("Verkauf")) {
+//				gewichtete = 0;
+//			}
+			if (!filteredData.get(i).getKind().equalsIgnoreCase("Verkauf")) {
+				gewichtete += Math.abs(filteredData.get(i).getAmount()) * Math.abs(share) + lfdStück * durchschnitt;
+				sumAmount += filteredData.get(i).getAmount();
+			} else {
+				durchschnitt = gewichtete / sumAmount;
+				gewichtete = 0;
+				sumAmount = 0;
+			}
+			System.out.println(/*
+								 * filteredData.get(i) + " share: " + df.format(share) + " conPrice: " +
+								 * df.format(lfdPreis) + " conAmount: " + df.format(lfdStück) + " conShare: " +
+								 * df.format(lfdKurs) +
+								 */" gewichtete: " + df.format(gewichtete) + "\tDURCHSCHNITT: "
+					+ df.format(durchschnitt) + " sumAmount: " + sumAmount);
+		}

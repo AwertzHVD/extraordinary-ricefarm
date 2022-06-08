@@ -401,12 +401,6 @@
           <tags>View</tags>
           <tags>categoryTag:General</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_YoJyoOcyEeyNhrimy0UpQQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Transaction.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Transaction.java&quot; partName=&quot;Transaction.java&quot; title=&quot;Transaction.java&quot; tooltip=&quot;Aufgabe/src/com/stiwa/start/Transaction.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Aufgabe/src/com/stiwa/start/Transaction.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;580&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
         <children xsi:type="basic:Part" xmi:id="_oPALsOcyEeyNhrimy0UpQQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ExcelDataHandler.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelDataHandler.java&quot; partName=&quot;ExcelDataHandler.java&quot; title=&quot;ExcelDataHandler.java&quot; tooltip=&quot;CalcKESt/src/com/stiwa/excel/ExcelDataHandler.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CalcKESt/src/com/stiwa/excel/ExcelDataHandler.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -718,7 +712,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_8u8GfNa4EeyzWM6K3AeD3A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dALYQOcxEeyNhrimy0UpQQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_8u9UEda4EeyzWM6K3AeD3A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1-QJ8OcyEeyZLrdHyiFyGQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_8u9UEda4EeyzWM6K3AeD3A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_8u8Gida4EeyzWM6K3AeD3A" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -749,7 +743,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_8u8G2da4EeyzWM6K3AeD3A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dANNcOcxEeyNhrimy0UpQQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_8u9Tw9a4EeyzWM6K3AeD3A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1-R_IOcyEeyZLrdHyiFyGQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_8u9Tw9a4EeyzWM6K3AeD3A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_8u8G5Na4EeyzWM6K3AeD3A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
